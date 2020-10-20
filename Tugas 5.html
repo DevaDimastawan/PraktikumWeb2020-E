@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>PPBW Pertemuan Ke 5</title>
+
+    <style>
+        #form{
+               padding-left: 30px;
+               background-color:lightskyblue;
+               margin-left: 500px;
+               margin-right: 500px;
+               margin-top: 65px;
+               padding-top: 10px;
+               padding-bottom: 20px;
+               border-radius: 30px;
+               border: solid white 5px;
+               font-family: cursive;
+               font-size: 100%;
+               color:whitesmoke;
+        }
+
+        #button{
+            width:100px;
+            height: 30px;
+            border-radius: 10px;
+            border-color: white;
+            background-color: steelblue;
+            color: white;
+            font-family: cursive;
+            font-size: 15px;
+            margin-top: 30px;
+           
+        }
+        input, textarea{
+               border-radius: 5px;
+               border:ridge 1px white;
+               font-family:'Courier New', Courier, monospace;
+               width: 200px;
+        }
+
+        body{
+               background: url(https://cdn.wallpapersafari.com/77/73/XSxP6C.png);
+               background-repeat: no-repeat;
+               background-size: 2000px;
+               background-position-x: 90%;
+               background-position-y: 90%;
+        }
+    
+
+       
+        
+    </style>
+
+</head>
+<body>
+    
+    <div id="form">
+        <h1 style="padding-left:109px", >Tugas Form</h1><br>
+            <label for="fname">Nama </label>
+            <input type="text" id="fname" name="Nama" placeholder="Nama User" style="margin-left: 63px;"><br><br>
+            
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="Email", style="margin-left: 63px;"><br><br>
+            
+            <label for="Password">Password </label>
+            <input type="password" id="Password" name="Password", style="margin-left: 35px;"> <br><br>
+
+          
+            <label for="gender"> Gender</label>    
+            <input type="radio" id="male" name="gender", style="margin-left:-45px;">
+            <label for="male" style="margin-left: -92px;">Male</label>
+            <input type="radio" id="female" name="gender" style="margin-left: -80px;">
+            <label for="male" style="margin-left: -90px;">Female</label>
+            <br><br>
+
+            <label for="hobby">Hobby</label>
+            <label style="margin-left: -42px;"></label>
+            <input type="checkbox" id="coding" name="coding">
+            <label for="coding", style="margin-left: -90px;">Coding</label>
+            <input type="checkbox" id="design" name="design" style="margin-left: -80px;">
+            <label for="desgin", style="margin-left: -90px;">Design</label>
+            <input type="checkbox" id="reading" name="reading", style="margin-left: -90px;">
+            <label for="reading" style="margin-left: -90px;">Reading</label> <br><br>
+            
+            <label for="daerah" id="daerah" style="margin-right: 15px;">Daerah Asal</label>
+            <select>
+                <optgroup label="Asia">
+                     <option>Indonesia</option>
+                     <option>Malaysia</option> 
+                </optgroup>
+                <optgroup label="Eropa">
+                    <option>London</option>
+                    <option> Paris</option>
+                </optgroup>
+
+            </select> <br><br>
+            <label for="Komentar">Komentar </label> <br>
+            <textarea rows="10" cols="15" id="Komentar", style="margin-left: 120px;"></textarea>
+        
+            <button type="submit", id="button", style="margin-left: 140px;">Submit</button>
+        
+            </form>
+    </div>
+    
+</body>
+</html>
