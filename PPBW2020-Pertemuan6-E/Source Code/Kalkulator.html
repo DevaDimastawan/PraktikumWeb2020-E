@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kalkulator</title>
+    <script src="Kalkulator.js"></script>
+    <link rel="stylesheet" href="index1.css">
+</head>
+
+<body>
+    <div class="main_header">
+        <h1 class="main_tittle">Tugas Kalkulator</h1>
+    </div>
+    <div class="container">
+        <form name="form">
+            <input class="hasil" name="hasil" readonly>
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" class="button op" value="C" onclick="clean()"></td>
+                <td><input type="button" class="button op" value="x&sup2;" onclick="insert('pangkat')"></td>
+                <td><input type="button" class="button op" value="." onclick="insert('.')"></td>
+                <td><input type="button" class="button op" value="/" onclick="insert('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
+                <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
+                <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
+                <td><input type="button" class="button op" value="x" onclick="insert('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
+                <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
+                <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
+                <td><input type="button" class="button op" value="+" onclick="insert('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
+                <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
+                <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
+                <td><input type="button" class="button op" value="-" onclick="insert('-')"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" class="button buttonnol" value="0" onclick="insert(0)"></td>
+                <td><input type="button" class="button" value="%" onclick="insert('%')"></td>
+                <td><input type="button" class="button op" value="=" onclick="equal()"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
