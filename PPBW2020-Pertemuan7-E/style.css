@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("gambar2.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.container {
+  border: 1px solid #ffffff;
+  width: 320px;
+  height: 280px;
+  position: fixed;
+  left: 38%;
+  top: 10%;
+  background: #5FA3F4;
+  border-radius: 20px;
+  margin-top: 150px;
+}
+
+.main {
+  margin: 30px 7%;
+}
+input[type="submit"]{
+  background: #f9feff;
+  cursor: pointer;
+  margin: 0px 140%;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  background-color: #c6e7fd;
+}
+
+h1 {
+  position: fixed;
+  top: 5%;
+  left: 42%;
+  color: black;
+  font-weight: bold;
+  text-transform:uppercase;
+  font-family: inter,sans-serif;
+  font-size: 18px;
+  margin-top: 150px;
+}
+
+.input {
+  margin-bottom: 9px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.hasil {
+  border: 1px solid #ffffff;
+  width: 340px;
+  height: 370px;
+  position: fixed;
+  left: 38%;
+  top: 10%;
+  background: #5FA3F4;
+  border-radius: 5px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.main-hasil {
+  margin: 20px 7%;
+}
+
+.heading h1{
+  margin-top: 100px;
+  left: 42%;
+}
